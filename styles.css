@@ -1,0 +1,87 @@
+body, div{
+	color: black;
+	font-family: cursive;
+	background-color: #e8c5fc;
+}
+
+@font-face {
+	font-family: bday-font; 
+	src: url('fonts/GreatVibes-Regular.ttf'); 
+} 
+
+.content-text {
+	text-align: center;
+	margin-top:10vh;
+}
+
+.filler-dot {
+	text-align: center;
+	margin-top:5vh;
+}
+
+.img-class {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75vh;
+	height: auto;
+	align: center;
+}
+
+#myModal {
+	background: none;
+}
+
+.banner {
+	text-align: center;
+	margin-top:1vh;
+	font-size: 20vh;
+}
+
+.modal-body{
+	padding-bottom: 9vh;
+	border-radius:3vh ;
+	background-color: #f6e6ff;
+}
+
+.modal-content, .modal, #myModal, .modal-dialog{
+	border-radius:3vh ;
+}
+
+.modal{
+	margin-top: 12vh;
+}
+
+.close{
+	color: black;
+	opacity: 1;
+}
+
+.glow {
+  color: black;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+.text-animation{
+	animation: text-effect 1s linear infinite;
+}
+
+@-webkit-keyframes text-effect {
+ 	0% {color: #4dfa7b; text-shadow: 0 0 10px #CCFF00}    
+ 	25% {color: #8af9ff; text-shadow: 0 0 20px #FF00CC}
+    50% {color: #FFB7D5; text-shadow: 0 0 10px #FAFA37}
+    75% {color: #f9e6fc; text-shadow: 0 0 20px #76D7EA}
+    100%{color: #f7ff8a; text-shadow: 0 0 10px #FC74FD}
+}
